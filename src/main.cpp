@@ -170,8 +170,8 @@ void led_task(void* p) {
     gpio_init(LED_B);
     gpio_set_dir(LED_B, GPIO_OUT);
 
-    gpio_init(LED_B);
-    gpio_set_dir(LED_B, GPIO_OUT);
+    gpio_init(LED_G);
+    gpio_set_dir(LED_G, GPIO_OUT);
    
     int value;
     while (true) {
